@@ -33,6 +33,7 @@ BasicStepperDriver stepper(MOTOR_STEPS, DIR, STEP);
 //Global
 //------------------------------------------------------------------//
 int flag = 0;
+int flag1 = 0;
 //Time Counter
 unsigned long   cnt1;                 // Timer Interrupt 1ms++
 
